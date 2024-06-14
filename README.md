@@ -1,4 +1,4 @@
-A video streaming platform using ReactJs,Express
+A video streaming platform using HTML,Tailwind CSS,next.js and Linode Object Storage to store videos and stream video into our browser.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
