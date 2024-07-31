@@ -42,11 +42,11 @@ app.get('/video/:id/poster', function(req, res) {
     .catch(err => console.log(err))
 });
 
-// add after the app.get('/video/:id/poster', ...) route
+
 
 app.get('/video/:id/caption', (req, res) => res.sendFile('assets/captions/sample.vtt', { root: __dirname }));
 
-// endpoint to fetch a single video's metadata
+
 app.get('/video/:id/data', function(req, res) {
   const id = parseInt(req.params.id, 10);
   res.json(videos[id]);
